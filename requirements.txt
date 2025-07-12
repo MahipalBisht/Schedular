@@ -1,0 +1,11 @@
+# requirements.txt
+
+fastapi
+uvicorn[standard]
+pandas
+numpy
+geopy
+scipy
+ortools-sat
+python-multipart  # Needed for Form(...) and UploadFile
+openpyxl          # Needed for reading/writing .xlsx files
